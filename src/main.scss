@@ -1,0 +1,32 @@
+---
+# HSA-PL CSS
+
+# Make sure that USWDS CSS is available.
+includePaths:
+  - node_modules/uswds/dist/css
+  - node_modules/kss-uswds
+---
+
+/**
+ * HSA-PL's CSS
+ */
+
+/**
+ * Dependencies
+ */
+
+// USWDS
+@import "styleguide/accordion";
+@import "styleguide/alerts";
+@import "styleguide/buttons";
+@import "styleguide/colors";
+@import "styleguide/footer";
+@import "styleguide/form-controls";
+@import "styleguide/form-templates";
+@import "styleguide/grid";
+@import "styleguide/labels";
+@import "styleguide/search-bar";
+@import "styleguide/side-navigation";
+@import "styleguide/tables";
+@import "styleguide/typography";
+@import "uswds";

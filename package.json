@@ -1,0 +1,25 @@
+{
+  "name": "hsa-pl",
+  "version": "0.0.1",
+  "description": "Pattern library for the HSA redesign, adopting the US Web Design Standards to a Drupal theme.",
+  "main": "index.js",
+  "dependencies": {
+    "kalastatic": "^2.0.1",
+    "kss-uswds": "^0.1.1",
+    "uswds": "^0.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "kalastatic build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exygy/HSA-PL.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Exygy/HSA-PL/issues"
+  },
+  "homepage": "https://github.com/Exygy/HSA-PL#readme"
+}
