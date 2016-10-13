@@ -4,7 +4,9 @@
   "description": "Pattern library for the HSA redesign, adopting the US Web Design Standards to a Drupal theme.",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "kalastatic": "^2.0.1",
+    "kss-bootstrap": "^3.0.0",
     "kss-uswds": "^0.1.1",
     "uswds": "^0.13.1"
   },

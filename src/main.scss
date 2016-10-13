@@ -5,6 +5,7 @@
 includePaths:
   - node_modules/uswds/dist/css
   - node_modules/kss-uswds
+  - node_modules/bootstrap/dist/css
 ---
 
 /**
@@ -14,6 +15,9 @@ includePaths:
 /**
  * Dependencies
  */
+
+// Bootstrap
+@import "bootstrap";
 
 // USWDS
 @import "styleguide/accordion";
